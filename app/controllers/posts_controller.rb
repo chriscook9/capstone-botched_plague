@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
   before_action :find_post, only: [:edit, :update, :show, :delete]
   #This authenticates admin whenever a post is to be created, updated or destroyed.
-  before_action :authenticate_admin!, except: [:index, :show]
+  before_action :authenticate_user!, except: [:index, :show]
 
   # Index action to render all posts
   def index
