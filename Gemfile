@@ -27,7 +27,7 @@ gem 'jbuilder', '~> 2.5'
 
 
 group :development, :test do
-  
+  gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
  
   gem 'capybara', '~> 2.13'
@@ -46,8 +46,9 @@ end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'simple_form', '~> 3.2'
-gem 'bootstrap-sass', '~> 3.3'
+gem 'bootstrap', '~> 4.0'
 gem 'ckeditor', '~> 4.1'
 gem 'devise', '~> 4.2'
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
